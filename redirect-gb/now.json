@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "alias": [
+    "www.glossboss.de",
+    "blog.glossboss.de"
+  ],
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://glossboss.de/$1"
+      }
+    }
+  ]
+}

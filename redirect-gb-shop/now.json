@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "alias": [
+    "shop.glossboss.de"
+  ],
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://glossboss-shop.de/$1"
+      }
+    }
+  ]
+}
