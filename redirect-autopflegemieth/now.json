@@ -2,8 +2,7 @@
     "version": 2,
     "alias": [
         "www.autopflegemieth.de",
-        "www.autopflege-mieth.de",
-        "autopflege-mieth.de"
+        "autopflegemieth.de"
     ],
     "builds": [
         {
@@ -16,7 +15,7 @@
             "src": "/(.*)",
             "status": 301,
             "headers": {
-                "Location": "https://autopflegemieth.de/$1"
+                "Location": "https://detailing.glossboss.de/$1"
             }
         }
     ]
