@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "alias": ["upload.glossboss.de"],
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://glossbossuploader.herokuapp.com/"
+      }
+    }
+  ]
+}
