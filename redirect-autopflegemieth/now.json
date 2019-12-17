@@ -1,22 +1,23 @@
 {
-    "version": 2,
-    "alias": [
-        "www.autopflegemieth.de",
-        "autopflegemieth.de"
-    ],
-    "builds": [
-        {
-            "src": "index.html",
-            "use": "@now/static"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "status": 301,
-            "headers": {
-                "Location": "https://detailing.glossboss.de/$1"
-            }
-        }
-    ]
+  "version": 2,
+  "alias": [
+    "www.autopflegemieth.de",
+    "autopflegemieth.de",
+    "detailing.autopflegemieth.de"
+  ],
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://detailing.glossboss.de/$1"
+      }
+    }
+  ]
 }
