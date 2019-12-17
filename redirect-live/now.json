@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "alias": ["live.glossboss.de"],
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://www.youtube.com/watch?v=LfhG1Rehe74"
+      }
+    }
+  ]
+}
