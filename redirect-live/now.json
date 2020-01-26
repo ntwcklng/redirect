@@ -12,7 +12,7 @@
       "src": "/(.*)",
       "status": 301,
       "headers": {
-        "Location": "https://www.youtube.com/watch?v=LfhG1Rehe74"
+        "Location": "https://www.youtube.com/watch?v=BvmjgqO-tcg"
       }
     }
   ]
