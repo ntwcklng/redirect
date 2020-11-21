@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "alias": ["live.glossboss.de"],
   "builds": [
     {
       "src": "index.html",
@@ -12,7 +11,7 @@
       "src": "/(.*)",
       "status": 301,
       "headers": {
-        "Location": "https://www.youtube.com/watch?v=h4N6eS14sJs"
+        "Location": "https://www.youtube.com/watch?v=m77wAd5Xb_I"
       }
     }
   ]
